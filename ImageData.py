@@ -122,6 +122,7 @@ plt.show()
 
 # cvtColor에 넣을 gray_normalized와 ab1_normalized 데이터를 조합한 Lab 이미지 생성
 import numpy as np
+# download opencv
 import cv2
 
 # LAB 데이터를 결합하여 컬러 이미지 생성
@@ -225,7 +226,7 @@ plt.imshow(rgb_image)
 plt.axis("off")
 plt.show()
 
-pip install optuna
+# pip install optuna
 
 import optuna
 from sklearn.model_selection import cross_val_score
