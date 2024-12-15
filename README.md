@@ -1,5 +1,5 @@
 # 🪄 ImageColorization
-## Presentation
+## 🦖 Presentation
 ![1](assets/1.jpg)
 ![2](assets/2.jpg)
 ![3](assets/3.jpg)
@@ -25,5 +25,6 @@
 ![23](assets/23.jpg)
 ![24](assets/24.jpg)
 
-## ✒️Report
-ImageColorization.pdf[📝](https://github.com/choiwlsd/ImageColorization/blob/main/assets/ImageColorization.pdf)
+## ✒️ Report
+If you are interested in report of Image Colorization project, this is the link here!
+📌 ImageColorization.pdf[📝](https://github.com/choiwlsd/ImageColorization/blob/main/assets/ImageColorization.pdf)
