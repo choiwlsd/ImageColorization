@@ -80,8 +80,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # npy 파일 열기
 gray_scale_path = "data/l/gray_scale.npy"
-ab1_path = f"data/ab/ab1.npy"
-ab2_path = f"data/ab/ab2.npy"
+ab1_path = "data/ab/ab1.npy"
+ab2_path = "data/ab/ab2.npy"
 
 # 데이터를 로드
 L_df = (np.load(gray_scale_path))[:20000]
