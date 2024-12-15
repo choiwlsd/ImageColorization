@@ -365,7 +365,7 @@ def main(): #main함수
 
             if (i + 1) % args_tmp['sample_step'] == 0: #sample step 되면
             #if True:
-                save_path = {'grayscale': 'results/gray/', 'colorized': 'results/color/', 'real': 'results/real/'}
+                save_path = {'grayscale': 'pix2pix_results/pix2pix_gray/', 'colorized': 'pix2pix_results/pix2pix_color/', 'real': 'pix2pix_results/pix2pix_real/'}
                 save_name = 'img-{}-epoch-{}.jpg'.format(i, epoch) #sample 생성
                 if i+1 % 500 == 0:
                     to_rgb(input_gray.cpu(), ab_input=output_ab.detach().cpu(), real_ab=input_ab.cpu(),  save_path=save_path, save_name=save_name)
